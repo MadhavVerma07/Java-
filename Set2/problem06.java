@@ -3,8 +3,8 @@ import java.util.Set;
 
 public class problem06 {
     static class Student {
-        private final String name;
-        private final int regId;
+        private  String name;
+        private  int regId;
 
         Student(String name, int regId) {
             this.name = name;
@@ -28,7 +28,7 @@ public class problem06 {
         }
     }
 
-    public static void main(String[] args) {
+     void main() {
         Student s1 = new Student("Madhav", 14);
         Student s2 = new Student("Dravin", 14);
         StudentRegister register = new StudentRegister();
